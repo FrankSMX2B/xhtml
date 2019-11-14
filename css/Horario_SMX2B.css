@@ -1,0 +1,46 @@
+p{
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 20px;
+}
+table,td,th{
+    font-family: verdana;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.smx-m04{
+    text-decoration: underline;
+    background-color: darkorange;
+}
+
+.smx-m06{
+    text-decoration: underline;
+    background-color: darkgreen;
+}
+
+.smx-m07{
+    text-decoration: underline;
+    background-color: darkred;
+}
+
+.smx-m08{
+    text-decoration: underline;
+    background-color: darkslateblue;
+}
+
+.smx-m10{
+    text-decoration: underline;
+    background-color: darkcyan;
+}
+
+.tut-alum{
+    text-decoration: underline;
+    background-color: darkturquoise;
+}
+
+.PATIO{
+    text-decoration: underline;
+    background-color: darkgrey;
+}
