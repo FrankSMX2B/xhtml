@@ -1,0 +1,44 @@
+body{
+    color: purple;
+    background-color: aquamarine;
+}
+
+p{
+    color:pink;
+    font-size: 25px;
+    font-family: Verdana, geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 70px; /*ancho*/
+    height: 70px; /*alto*/
+}
+
+table,td,th{
+    border: 5px solid purple;
+    border-collapse: collapse;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+td{
+    background-color: blue;
+}
+.tamanyoimagen /* Empezando por . indica que es una "class"*/
+{
+    width: 130px; /*ancho*/
+    height: 130px; /*alto*/
+}
+.rojo{
+    color: red
+}
+#terceralinea
+{
+background-color: black
+}
+.fondoblanco
+{
+    background-color: aliceblue
+}
