@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+    comentaris externs
+-->
+<html lang="en">
+    <head>
+        <title>Formulario "Curriculum" </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/formulario.css"/>
+    </head>
+    <body>
+        <!--
+            comentaris interns
+        -->
+        <h1 id="h1">Curriculum</h1>
+        <form action="form.html" method="get" enctype="multipart/form-data" class="form">
+            <fieldset class="cv" id="informacion">
+
+               <legend class="legend">Información Basica</legend> 
+
+               <h2 class="h2">Nombre:</h2>
+               <input type="text" id="id_text" name="n_text" value="Tu nombre" placeholder="Input_text" required>
+               <input type="submit">
+
+               <h2 class="h2">Altura en centimetros:</h2>
+               <input type="number" id="id_number" name="n_number" value="175"/>
+
+               <h2 class="h2">Email:</h2>
+               <input type="email" id="id_email" name="n_email" value="default@gmail.com"/>
+
+               <h2 class="h2">Fecha de nacimiento:</h2>
+               <input type="date" id="id_date" name="n_date" value="1997-09-10"/>
+            </fieldset>
+
+            <fieldset class="cv" id="nacionalidad">
+
+                <legend class="legend">Nacionalidad</legend>
+
+                <input type="radio" id="id_radio2" name="n_radio" value="c"/> Española
+                <input type="radio" id="id_radio3" name="n_radio" value="g"/> Comunitario(UE)
+                <input type="radio" id="id_radio4" name="n_radio" value="t"/> No Comunitario
+ 
+
+            </fieldset>
+
+            <fieldset class="cv" id="estudios">
+
+                <legend class="legend">Estudios</legend>
+
+                <select id="id_select" name="n_select">
+                    <option value="default" >SMX</option>
+                    <option value="default" >AFM</option>
+                    <option value="default" >COI</option>
+                    <option value="default" >CON</option>
+                    <option value="default" >ASIX</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset class="cv" id="idiomas">
+
+                <legend class="legend">Idiomas</legend>
+
+                 <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>Catalán
+                 <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c"/>Castellano
+                 <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"/>Ingles
+                 <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"/>Chino
+
+            </fieldset>
+
+            <fieldset class="cv" id="conocimientos">
+
+                <legend class="legend">Conocimientos ofimaticos</legend>
+
+                <textarea id="id_textarea" name="n_textarea">Default text</textarea>
+
+            </fieldset>
+
+            <fieldset class="cv" id="curriculum">
+
+                <legend class="legend">Curriculum Externo</legend>
+
+                 <label for="id_file">Adjunta tu Curriculum aqui:</label>   
+                 <input type="file" id="id_file" name="n_file"/>
+
+            </fieldset>
+
+            <fieldset class="cv" id="botones">
+
+                    <legend class="legend"></legend>
+
+                    <button id="id_button1" name="n_button" value="BUTTON" onclick="alert('Have a nice day!'); return false;">Enviar</button>
+                    <button id="id_button2" name="n_button" value="BUTTON" onclick="alert('Are you sure?'); return false;">Cancelar</button>
+                   
+               </fieldset>
+
+               <img src="../imagenes/Validator_ex8.png" alt="Validator_ex8" />
+        </form>
+    </body>
+</html>  

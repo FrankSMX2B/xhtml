@@ -1,0 +1,63 @@
+.form{
+    border: 3px solid black;
+}
+
+.cv{
+    margin: 15px;
+}
+
+.legend{
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-decoration-line: underline
+}
+
+.h2{
+    font-family: arial;
+    color: black;
+    font-size: 17px;
+
+}
+
+#h1{
+    text-align: center;
+    color: black;
+    text-decoration-line: underline;
+}
+
+#informacion{
+    height: 300px;
+    background-color: lightcoral;
+}
+
+#nacionalidad{
+    height: 40px;
+    background-color: azure;
+}
+
+#estudios{
+    height: 40px;
+    background-color: lightblue;
+}
+
+#idiomas{
+    height: 40px;
+    background-color: lightgrey;
+}
+
+#conocimientos{
+    height: 50px;
+    background-color: lightcoral;
+}
+
+#curriculum{
+    height: 40px;
+    background-color: azure;
+}
+
+#botones{
+    height: 20px;
+    background-color: lightblue;
+}
