@@ -28,7 +28,7 @@
 }
 
 #informacion{
-    height: 300px;
+    height: 350px;
     background-color: lightcoral;
 }
 
@@ -38,7 +38,7 @@
 }
 
 #estudios{
-    height: 40px;
+    height: 55px;
     background-color: lightblue;
 }
 
@@ -48,7 +48,7 @@
 }
 
 #conocimientos{
-    height: 50px;
+    height: 65px;
     background-color: lightcoral;
 }
 
