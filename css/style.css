@@ -1,0 +1,21 @@
+p a {
+    font-size: 75px;
+}
+p::first-letter{
+    color:orange;
+    background-color: red;
+}
+
+/*p:nth-child(even){
+    background-color: aqua;
+}*/
+
+ul~p /*primera etiqueta p despues de una ul*/
+{
+    color:black;
+    background-color: blueviolet;
+}
+
+div#container  ol {
+    border: 1px solid black;
+}
