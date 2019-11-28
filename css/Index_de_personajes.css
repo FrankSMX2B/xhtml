@@ -1,1 +1,194 @@
+body
+{
 font-family: 'Work Sans', sans-serif;
+background-color: black;
+}
+
+table,td,th
+{
+
+    font-family: verdana;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 300px;
+    padding: 15px;
+    margin-top: 70px;
+    margin-bottom: 250px;
+}
+
+#table_menu
+{
+    font-family: verdana;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center
+    
+}
+
+.thtexto
+{
+    background-color: blue;
+}
+
+.tdvideo
+{
+    background-color: red;
+}
+
+#TOP
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 300px;
+}
+
+#menu
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 100px;
+    margin-bottom: 250px;
+    margin-top: 50px;
+    padding-left: 0px;
+
+}
+
+#jugadores
+{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+#lebron
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    
+}
+
+#lebronimagen
+{
+    width: 600px;
+    height: 400px;
+}
+
+#textolebron
+{
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+#videolebron
+{
+    display: block;
+    margin: auto;
+}
+
+#kyrie
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+
+}
+
+#kyrieimagen
+{
+    width: 600px;
+    height: 400px;
+}
+
+#textokyrie
+{
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+#kyrievideo
+{
+    display: block;
+    margin: auto;
+}
+
+#paul
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+
+}
+
+#paulimagen
+{
+    width: 600px;
+    height: 400px;
+}
+
+#textopaul
+{
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+#paulvideo
+{
+    display: block;
+    margin: auto;
+
+}
+
+#giannis
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+#giannisimagen
+{
+    width: 600px;
+    height: 400px;
+}
+
+#textogiannis
+{
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+#giannisvideo
+{
+    display: block;
+    margin: auto;
+}
+
+#irtop
+{
+    text-align: center;
+
+}
