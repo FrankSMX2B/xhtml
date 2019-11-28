@@ -22,7 +22,8 @@ table,td,th
     font-family: verdana;
     border: 1px solid white;
     border-collapse: collapse;
-    text-align: center
+    text-align: center;
+    margin-right: 150px;
     
 }
 
@@ -50,9 +51,9 @@ table,td,th
     color: white;
     font-size: 30px;
     margin: 100px;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
     margin-top: 50px;
-    padding-left: 0px;
+    padding-left: 50px;
 
 }
 
