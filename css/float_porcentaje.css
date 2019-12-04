@@ -11,17 +11,17 @@
     width: 67%;
     height: 14%;
     background-color: green;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
 }
 
 .cuadro2
 {
     border: 1px solid white;
     float: right;
-    width: 32%;
+    width: 31%;
     height: 14%;
     background-color: yellowgreen;   
-    margin-left: 0%;
+    margin-left: 1%;
 }
 .cuadro3
 {
@@ -30,39 +30,37 @@
     width: 33%;
     height: 24%;
     background-color: black;
-    margin-bottom: ;
+    margin-bottom: 1%;
 }
 
 .cuadro4
 {
     border: 1px solid white;
     float: left;
-    width: 34%;
+    width: 32.6%;
     height: 24%;
     background-color: yellowgreen;
-    margin-left: ;
+    margin-left: 1%;
 }
 
 .cuadro5
 {
     border: 1px solid white;
     float: right;
-    width: 32%;
-    height: 14%;
+    width: 31%;
+    height: 11.3%;
     background-color: green;
-    margin-bottom: ;
-    margin-left: ;
+    margin-bottom: 1%;
 }
 
 .cuadro6
 {
     border: 1px solid white;
     float: right;
-    width: 32%;
-    height: 14%;
+    width: 31%;
+    height: 11.2%;
     background-color: yellowgreen;
-    margin-bottom: ;
-    margin-left: ;
+    margin-bottom: 1%;
 }
 
 .cuadro7
@@ -72,16 +70,16 @@
     width: 67%;
     height: 14%;
     background-color: green;
-    margin-bottom: ;
-    margin-right: ; 
+    margin-bottom: 1%;
+    margin-right: 1%; 
 }
 
 .cuadro8
 {
     border: 1px solid white;
     float: right;
-    width: 32%;
-    height: 24%;
+    width: 31%;
+    height: 29.4%;
     background-color: black;
 }
 
@@ -93,35 +91,34 @@
     width: 67%;
     height: 14%;
     background-color: yellowgreen;
-    margin-bottom: ;
-    margin-right: ;
+    margin-bottom: 1%;
 }
 
 .cuadro10
 {
     border: 1px solid white;
     float: left;
-    width: 33%;
+    width: 32%;
     height: 14%;
     background-color: green;
-    margin-right: ;
+    margin-right: 1%;
 }
 
 .cuadro11
 {
     border: 1px solid white;
     float: left;
-    width: 34%;
+    width: 33.5%;
     height: 14%;
     background-color: yellowgreen;
-    margin-right: ;
+    margin-right: 1%;
 }
 
 .cuadro12
 {
     border: 1px solid white;
     float: right;
-    width: 32%;
+    width: 31%;
     height: 14%;
     background-color: green;
 }
