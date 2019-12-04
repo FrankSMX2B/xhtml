@@ -1,34 +1,106 @@
 #imatge
 {
     width: 1000px;
-    height: 1000px;
+    height: 1300px; 
 }
 
-.mosaico1
+.interior:hover
+{
+    opacity: 0.5;
+    border: 5px solid black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#mosaico1
 {
     border: 1px solid white;
     float: left;
-    width: 1000px;
+    width: 998px;
+    height: 400px;
+    background-color: green;
+    background: url(../imagenes/nba.png);
+    background-size: 998px 400px;
+    margin-bottom: 2px;
+}
+#mosaico2
+{
+    border: 1px solid white;
+    float: left;
+    width: 295px;
     height: 200px;
     background-color: green;
+    background: url(../imagenes/cleveland.png);
+    background-size: 295px 200px;
     margin-bottom: 2px;
+    margin-right: 2px;
 }
-.mosaico2
+#mosaico3
 {
     border: 1px solid white;
     float: left;
-    width: 299px;
-    height: 150px;
+    width: 292px;
+    height: 200px;
     background-color: green;
+    background: url(../imagenes/okc.png);
+    background-size: 292px 200px;
     margin-bottom: 2px;
-    margin-left: 2px;
 }
-.mosaico3
+#mosaico4
 {
     border: 1px solid white;
     float: right;
-    width: 299px;
-    height: 150px;
+    width: 400px;
+    height: 310px;
     background-color: green;
+    background: url(../imagenes/nets1.jpg);
+    background-size: 400px 310px;
+    margin-bottom: 2px;
+    margin-left: 2px; 
+}
+#mosaico5
+{
+    border: 1px solid white;
+    float: left;
+    width: 295px;
+    height: 200px;
+    background-color: green;
+    background: url(../imagenes/utah.jpg);
+    background-size: 295px 200px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+#mosaico6
+{
+    border: 1px solid white;
+    float: left;
+    width: 292px;
+    height: 200px;
+    background-color: green;
+    background: url(../imagenes/sacramento.png);
+    background-size: 292px 200px;
+    margin-bottom: 2px;
+}
+#mosaico7
+{
+    border: 1px solid white;
+    float: left;
+    width: 496px;
+    height: 500px;
+    background-color: green;
+    background: url(../imagenes/lebron3.jpg);
+    background-size: 496px 500px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+#mosaico8
+{
+    border: 1px solid white;
+    float: right;
+    width: 497px;
+    height: 500px;
+    background-color: green;
+    background: url(../imagenes/Lebron2.jpg);
+    background-size: 497px 500px;
     margin-bottom: 2px;
 }
