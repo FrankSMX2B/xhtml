@@ -1,0 +1,96 @@
+#corner1
+{
+    border-radius: 15px 50px 30px 5px;
+    border: 2px solid green;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+#corner2
+{
+    border-radius: 15px 50px 30px;
+    background:green;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+#corner3
+{
+    border-radius: 15px 50px;
+    background:green;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+#corner4
+{
+    border-radius: 15px;
+    background:green;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+#rgba1
+{
+    background-color: rgba(255,0, 0, 0.2);
+}
+#rgba2
+{
+    background-color: rgba(255,0,0,0.4);
+}
+#rgba3
+{
+    background-color: rgba(255,0, 0, 0.6);
+}
+#rgba4
+{
+    background-color: rgba(255,0, 0, 0.8);
+}
+#grad1
+{
+    height: 200px;
+    background: linear-gradient(to top, white, purple);
+}
+#grad2
+{
+    height: 200px;
+    background: linear-gradient(to left, white,purple);
+}
+#grad3
+{
+    height: 250px;
+    width: 300px;
+    background: radial-gradient(circle, white, purple, black);
+}
+#h3
+{
+    text-shadow: 2px 2px;
+}
+#h4
+{
+    text-shadow: 2px 2px 5px red;
+}
+#box-shadow
+{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background: turquoise;
+    color: darkmagenta;
+    box-shadow: 10px 10px black;
+}
+#box-shadow-blur
+{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: turquoise;
+    color: darkmagenta;
+    box-shadow: 10px 10px 5px grey;
+}
+.fl
+{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}

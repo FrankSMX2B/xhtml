@@ -73,7 +73,7 @@ nav a:hover
 }
 #banner_image
 {
-    background: url('../imagenes/sanfrancisco.jpg');
+    background: url('../imagenes/sanfrancisco.jpg') no-repeat;
     margin:20px;
     position: relative;
     height: 200px;
@@ -218,9 +218,8 @@ display: inline-block;
 
 footer
 {
-    background-image: url('../imagenes/top.png') no-repeat top center url('../imagenes/line.png') repeat-x top url('../imagenes/shadow.png') repeat-x top;
+    background-image: url('../imagenes/top.png') no-repeat top center, url('../imagenes/line.png') repeat-x top, url('../imagenes/shadow.png') repeat-x top;
     padding-top: 25px;
-    
 }
 
 
