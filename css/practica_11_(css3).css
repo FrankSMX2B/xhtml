@@ -98,3 +98,70 @@
 {
     padding: 10px;
 }
+#transformed
+{
+    width: 300px;
+    height: 200px;
+    background-color: darkred;
+    border: 1px solid black;
+    -ms-transform: translate(50px,100px);
+    -webkit-transform: translate(50px;100px) 
+}
+#transformed2
+{
+    width: 300px;
+    height: 200px;
+    background-color: darkred;
+    border: 1px solid black;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+}
+#transformed3
+{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: darkred;
+    border: 1px solid black;
+    -ms-transform: scale(2,3);
+    -webkit-transform: scale(2,3);
+    transform: scale(2,3);
+}
+#transicion
+{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s;
+}
+#transicion:hover
+{
+    width: 300px;
+    height: 250px;
+    background-color: darkturquoise
+}
+#animation
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: frank;
+    animation-duration: 4s;
+}
+
+@keyframes 
+frank{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+#texto
+{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3; 
+}
