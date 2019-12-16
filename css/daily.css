@@ -1,0 +1,15 @@
+#contain_wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+#cabecera
+{
+    width: 100%;
+    height: 125px;
+}
+#zodiaco
+{
+    width: 90%;
+    height: 125px;
+}
