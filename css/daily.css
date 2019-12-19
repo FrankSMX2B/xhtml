@@ -84,8 +84,16 @@
 #articleright2
 {
     position: absolute;
-    top: 639px;
+    top: 585px;
     left: 560px;
-    width: 248px;
-    height: 313px;
+    width: 148px;
+    height: 338px;
+}
+#articledown1
+{
+    position: absolute;
+    top: 923px;
+    left: 10px;
+    width: 700px;
+    height: 18px
 }
