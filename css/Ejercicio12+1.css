@@ -1,80 +1,99 @@
-#caption
-{
-    font-size: 30px;
-    font-family: arial;
-    text-decoration: underline;
-    color: turquoise;
-}
-table,td,th{
-    border: 5px solid black;
+
+    font-family: verdana;
+    border: 3px solid black;
     border-collapse: collapse;
     text-align: center;
 }
-#dodgeoriginal
-{
-    width: 300px;
-    height: 224px;
+
+.container1 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top 20px;
 }
-
-#dodgeefect
-@import "lesshat";
-
-.container{   
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top:20px;
-}
-
-.div-img
-{
+.div-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    &.hidden{
-        overflow: hidden;
-    #dodgeeffect{
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;   
-        transform:scale(1.2);
-        -ms-transform:scale(1.2); // IE 9 
-        -moz-transform:scale(1.2); // Firefox 
-        -webkit-transform:scale(1.2); // Safari and Chrome 
-        -o-transform:scale(1.2); // Opera 
-        -webkit-transition: all 500ms ease-in-out; // IE 9
-        -moz-transition: all 500ms ease-in-out; // Firefox
-        -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
-        -o-transition: all 500ms ease-in-out; // Opera       
-                                    }        
-    &:hover{}
-        #dodgeefect{
-            transform:scale(1);
-            -ms-transform:scale(1); // IE 9 
-            -moz-transform:scale(1); // Firefox 
-            -webkit-transform:scale(1); // Safari and Chrome 
-            -o-transform:scale(1); // Opera
-                    }
-            }            
 }
-
-#mustangoriginal
-{
-
+.hidden {
+    overflow: hidden;
 }
-#mustangefect
-{
+.dodgeeffect {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+  }
+.dodgeeffect:hover {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+  }
 
+  .container2{   
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    right: 60px;
+    margin: 0 auto;
+    top:20px;
+  }
+  .div-img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.mustang3effect {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  transform: translate(0px);
+  -ms-transform: translate(0px);
+  -moz-transform: translate(0px);
+  -webkit-transform: translate(0px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
 }
-#jeeporiginal
-{
-
-}
-#jeepefect
-{
-
-}
+.div-img2 .textmustang3 {
+    font-family: 'Open Sans';
+    position: absolute;
+    z-index: -1;
+    display: block;
+    height: 50%;
+    top: 50%;
+    right: 0;
+    padding-right: 5px;
+  }
+.mustang3effect:hover {
+    transform: translate(-90px, 0px);
+    -ms-transform: translate(-90px, 0px);
+    -moz-transform: translate(-90px, 0px);
+    -webkit-transform: translate(-90px, 0px);
+    -o-transform: translate(-90px, 0px);
+  }
+  
+  
