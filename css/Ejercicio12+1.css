@@ -6,8 +6,8 @@
 }
 
 .container1 {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     left: 0;
     right: 0;
@@ -45,6 +45,13 @@
     -o-transform: scale(1);
   }
 
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+  }
+
   .container2{   
     width: 500px;
     height: 500px;
@@ -78,7 +85,7 @@
   -ms-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;
 }
-.div-img2 .textmustang3 {
+.mustang3effect.textmustang3 {
     font-family: 'Open Sans';
     position: absolute;
     z-index: -1;
