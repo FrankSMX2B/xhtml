@@ -1,0 +1,14 @@
+.container{
+    border: 1px black solid;
+}
+
+#titulo1{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
+
+#titulo2{
+    color: turquoise;
+    text-align: center;
+}
