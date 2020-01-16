@@ -11,15 +11,15 @@
 .paragraf1{
     float: left;
     width: 70%;
-    font-size:20px;
-    background-color: red; 
+    font-size:10px;
+    background-color: lightpink; 
 }
 
 .paragraf2{
     float: left;
     width: 30%;
-    font-size: 20px;
-    background-color: yellow;
+    font-size: 10px;
+    background-color: lightsalmon;
 }
 
 @media screen and (max-width: 768px) {

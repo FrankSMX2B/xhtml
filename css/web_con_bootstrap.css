@@ -2,13 +2,35 @@
     border: 1px black solid;
 }
 
+.ancho100{
+    width: 100%;
+}
 #titulo1{
     background-color: blue;
     color: aliceblue;
     text-align: center;
+
 }
 
 #titulo2{
     color: turquoise;
     text-align: center;
+}
+.patrocinadores{
+    border: 1px black solid;
+    width: 169px;
+    height: 169px;
+}
+.col-izq{
+    float: left;
+    width: 70%;
+    font-size:20px;
+    background-color: red; 
+}
+
+.col-der{
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    background-color: yellow;
 }
