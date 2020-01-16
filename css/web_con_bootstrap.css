@@ -17,10 +17,13 @@
     text-align: center;
 }
 .patrocinadores{
-    border: 1px black solid;
-    width: 169px;
-    height: 169px;
+    width: 100%;
+    height: 100%;
 }
+.borde-pat{
+    border: 1px lightgrey solid;
+}
+
 .col-izq{
     float: left;
     width: 70%;
@@ -33,4 +36,14 @@
     width: 30%;
     font-size: 20px;
     background-color: yellow;
+}
+.color-par{
+    background-color: lightskyblue;
+}
+.color-impar{
+    background-color: lightyellow;
+}
+.pie{
+    align-content: center;
+    background-color: green;
 }
