@@ -1,0 +1,18 @@
+#contain_wrapper{
+width: 900px;
+}
+
+#titulo1{
+    text-align: center;
+    color: lightslategrey;
+}
+
+#volk-img{
+    width: 90px;
+    height: 70px;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 500px;
+}
