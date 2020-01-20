@@ -28,14 +28,14 @@
     float: left;
     width: 70%;
     font-size:20px;
-    background-color: red; 
+    background-color: lightpink; 
 }
 
 .col-der{
     float: left;
     width: 30%;
     font-size: 20px;
-    background-color: yellow;
+    background-color: lightsalmon;
 }
 .color-par{
     background-color: lightskyblue;
@@ -44,6 +44,6 @@
     background-color: lightyellow;
 }
 .pie{
-    align-content: center;
+    padding-left: 30%; 
     background-color: green;
 }
