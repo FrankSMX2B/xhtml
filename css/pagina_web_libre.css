@@ -15,10 +15,16 @@
 
 .carousel-item{
     width: 100%;
-    height: 375px;
+    height: 650px;
 }
 
-.tituloG{
+.coche{
+    width: 100%;
+    height: 650px;
+}
+
+.titulo2{
+    float: left;
     background-color:#484747 ;
     width: 100%;
     height: 50px;
@@ -27,13 +33,32 @@
 }
 
 #parrafo1{
-    width: 100%;
+    float: left;
+    width: 70%;
     height: 100%;
     font-size:16px;
     background-color:#364084;
+    color: aliceblue;
 }
 
 #volk-img2{
-    width: 100%; 
+    float: left;
+    width: 30%;
+    height: 600px;
     top: 100%;  
+}
+
+.titulo3{
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    background: linear-gradient(to top, white, #2555b9);
+    color: black;
+}
+
+.innovaciones{
+    float: left;
+    width: 50%;
+    height: 300px;
 }
