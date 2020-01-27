@@ -8,23 +8,18 @@
     color: lightslategrey;
 }
 
-.h1{
+#volk-img{
+    width: 90px;
+    height: 70px;
+}
+
+.h2{
     text-align: center;
-    color: black;
-    text-decoration-line: underline;
+    background-color: navy;
+    color: white;
 }
 
-.h3{
-    color: #2555b9;
-    font-weight: bold;
-}
-
-.h4{
-    font-weight: bold;
-    color: black;
-}
-
-.renting{
+.imagen-w{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +37,7 @@
     height: 280px;
 }
 
-.renting:hover{
+.imagen-w:hover{
     transform:scale(1);
     -ms-transform:scale(1);
     -moz-transform:scale(1);
@@ -54,23 +49,14 @@
     /*overflow: hidden;*/
 }
 
-#volk-img{
-    width: 90px;
-    height: 70px;
-}
-
 .text{
-    color: black;
+    text-align: center;
+    color: navy;
 }
 
-#h2{
-    background-color: navy;
+.precio{
     text-align: center;
     font-weight: bold;
-    color: aliceblue;
-}
-
-#footer-text{
-    text-align: center;
     color: black;
+    text-decoration: underline;
 }
