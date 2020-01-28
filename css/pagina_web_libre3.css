@@ -60,3 +60,15 @@
     color: black;
     text-decoration: underline;
 }
+
+#footer{
+    background-color: navy;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#footer-text{
+    text-align: center;
+    color: black;
+}

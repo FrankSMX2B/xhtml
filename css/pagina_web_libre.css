@@ -130,13 +130,45 @@
 }
 
 #correo-electronico{
-    width: 28%;
+    width: 41%;
     display: inline-block;
     text-align: center;
 }
 
 #redes{
-    width: 28%;
+    width: 30%;
     display: inline-block;
     text-align: center;
+}
+
+#h2{
+    background-color: navy;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#footer-text{
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width: 958px) {
+    
+    .parrafo2{
+        width: 100%;
+        font-size: 11.5px;
+    }
+    
+    #correo-electronico{
+        width: 42%;
+        display: inline-block; 
+        text-align: center;
+    }
+
+    #redes{
+        width: 28%;
+        display: inline-block; 
+        text-align: center;
+    }
 }
